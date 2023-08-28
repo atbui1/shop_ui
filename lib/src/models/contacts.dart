@@ -2,7 +2,6 @@ import 'package:shop_ui/src/models/messages.dart';
 import 'package:shop_ui/src/models/user.dart';
 
 class Contacts {
-  // final String id, name, avatar;
   String id;
   final User user;
   final List<Messages> messages;
@@ -13,74 +12,57 @@ class Contacts {
 
 List<Contacts> demoContacts = [
   Contacts(
-      "cc1",
+      "contact 1",
       User("uc1", "name user uc1", "assets/images/ps4_console_white_1.png"),
       [
         demoMessages[0],
         demoMessages[1],
         demoMessages[2],
-        demoMessages[3],
       ],
       true),
   Contacts(
-      "cc12",
+      "contact 2",
       User("uc12", "name user uc12", "assets/images/ps4_console_white_2.png"),
       [
-        demoMessages[0],
         demoMessages[1],
         demoMessages[2],
         demoMessages[3],
       ],
       true),
   Contacts(
-      "c1",
+      "contact 3",
       demoListUser[0],
       [
-        demoMessages[0],
         demoMessages[1],
         demoMessages[2],
-        demoMessages[3],
+        demoMessages[2],
       ],
-      true),
+      false),
   Contacts(
-      "c2",
+      "contact 4",
       demoListUser[1],
       [
         demoMessages[0],
-        demoMessages[1],
         demoMessages[2],
-        demoMessages[3],
+        demoMessages[5],
       ],
-      true),
+      false),
   Contacts(
-      "c3",
+      "contact 5",
       demoListUser[2],
       [
         demoMessages[0],
         demoMessages[1],
-        demoMessages[2],
-        demoMessages[3],
+        demoMessages[4],
       ],
       true),
   Contacts(
-      "c4",
+      "contact 6",
      demoListUser[3],
       [
         demoMessages[0],
         demoMessages[1],
         demoMessages[2],
-        demoMessages[3],
       ],
       true),
-  // Chats(
-  //     "c4",
-  //     "user 1",
-  //     "assets/images/ps4_console_white_4.png",
-  //     [
-  //       demoMessages[0],
-  //       demoMessages[1],
-  //       demoMessages[2],
-  //       demoMessages[3],
-  //     ],
-  //     true)
 ];

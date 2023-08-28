@@ -10,8 +10,10 @@ const tPrimaryGradientColor = LinearGradient(
   colors: [Color(0xFFFFA53E), Color(0xFFFF7643)],
 );
 const tSecondaryColor = Color(0xFF979797);
-const tTextColor = Color(0xFF757575);
+// const tTextColor = Color(0xFF757575);
+const tTextColor = Color(0xff000000);
 
+const tPaddingDefault = 20.0;
 const tAnimationDuration = Duration(milliseconds: 200);
 
 final headingStyle = TextStyle(

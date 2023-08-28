@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_ui/src/screens/home/home_page.dart';
+import 'package:shop_ui/src/screens/notify/notify_page.dart';
 import 'package:shop_ui/src/screens/profile/profile_page.dart';
 import 'package:shop_ui/src/utils/app_size_config.dart';
 
@@ -76,6 +77,7 @@ class CustomBottomNavigation extends StatelessWidget {
                   //   DetailPage.routeName,
                   //   arguments: ProductDetailsArguments(product!),
                   // );
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => NotifyPage()));
                 },
                 icon: SvgPicture.asset(
                     "assets/icons/ic_heart.svg",

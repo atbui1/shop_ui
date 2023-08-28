@@ -9,9 +9,6 @@ import 'package:shop_ui/src/screens/detail/components/top_rounded_container.dart
 import 'package:shop_ui/src/screens/home/home_page.dart';
 import 'package:shop_ui/src/utils/app_size_config.dart';
 
-import '../../profile/profile_page.dart';
-
-
 
 class Body extends StatelessWidget {
   final Product product;

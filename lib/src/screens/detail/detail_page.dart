@@ -41,9 +41,6 @@ class _DetailState extends State<DetailPage> {
 }
 class ProductDetailsArguments {
   final Product product;
-
   ProductDetailsArguments(this.product);
-
-// ProductDetailsArguments({required this.product});
 
 }

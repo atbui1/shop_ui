@@ -10,6 +10,7 @@ import '../../menus/home_menu.dart';
 import '../../utils/app_colors.dart';
 import '../../utils/app_size_config.dart';
 import 'components/category_card.dart';
+import 'components/fashion_product.dart';
 import 'components/section_title.dart';
 import 'components/special_offer_card.dart';
 
@@ -128,6 +129,13 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.only(left: 10, right: 10),
               child: PopularProduct(),),
+            Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                child: SectionTitle("Fashion", null)),
+            Padding(
+              padding: const EdgeInsets.only(left: 10, right: 10),
+              child: FashionProduct(),),
+
 
           ],
         ),
